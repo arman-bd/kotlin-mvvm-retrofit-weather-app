@@ -1,5 +1,7 @@
 # Kotlin MVVM Retrofit Weather App
 
-An weather application developed using Kotlin, Retrofit in MVVM Repository pattern.
+This is a very basic weather application developed using Kotlin in MVVM Repository pattern. Retrofit is used for API handling.
+
+(Download Debug APK](https://github.com/arman-bd/kotlin-mvvm-retrofit-weather-app/releases/download/v1/app-debug.apk)
 
 ![Screenshot](screenshot.png)
