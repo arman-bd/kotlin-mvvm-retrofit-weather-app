@@ -2,9 +2,6 @@ package mvvm.kotlin.weather.Repository
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-import mvvm.kotlin.weather.Common.SharedPreference
 import mvvm.kotlin.weather.Retrofit.MetaWeather
 import mvvm.kotlin.weather.Retrofit.ServiceBuilder
 import mvvm.kotlin.weather.Serializeable.WeatherModel
