@@ -92,8 +92,12 @@ class MainActivity : AppCompatActivity(), CellClickListener  {
         weatherViewModel!!.requestWeatherData(woeid)
         currentWoeid = woeid
         SharedPreference.savePreference("_woeid", woeid)
-        locationRecycler.visibility = View.GONE
-        weatherRecycler.visibility = View.VISIBLE
+        try {
+            locationRecycler.visibility = View.GONE
+            weatherRecycler.visibility = View.VISIBLE
+        }catch(e: Exception){
+            e.printStackTrace()
+        }
     }
 }
 

@@ -76,8 +76,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:tint="#81C784"
-                        tools:ignore="UseAppTint"
-                        tools:srcCompat="@drawable/w_temp" />
+                        app:srcCompat="@drawable/w_temp"
+                        tools:ignore="UseAppTint" />
 
                     <TextView
                         android:id="@+id/txtAverage"
@@ -86,7 +86,7 @@
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
                         android:text="Avg: "
-                        android:textSize="18sp" />
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/txtAverageValue"
@@ -95,7 +95,7 @@
                         android:layout_marginLeft="6dp"
                         android:layout_weight="1"
                         android:text="30.55"
-                        android:textSize="18sp" />
+                        android:textSize="12sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -111,8 +111,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:tint="#64B5F6"
-                        tools:ignore="UseAppTint"
-                        tools:srcCompat="@drawable/w_temp" />
+                        app:srcCompat="@drawable/w_temp"
+                        tools:ignore="UseAppTint" />
 
                     <TextView
                         android:id="@+id/txtMinimum"
@@ -121,7 +121,7 @@
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
                         android:text="Min: "
-                        android:textSize="18sp" />
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/txtMinimumValue"
@@ -130,7 +130,7 @@
                         android:layout_marginLeft="6dp"
                         android:layout_weight="1"
                         android:text="32.55"
-                        android:textSize="18sp" />
+                        android:textSize="12sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -146,8 +146,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:tint="#E57373"
-                        tools:ignore="UseAppTint"
-                        tools:srcCompat="@drawable/w_temp" />
+                        app:srcCompat="@drawable/w_temp"
+                        tools:ignore="UseAppTint" />
 
                     <TextView
                         android:id="@+id/txtMaximum"
@@ -156,7 +156,7 @@
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
                         android:text="Max: "
-                        android:textSize="18sp" />
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/txtMaximumValue"
@@ -165,7 +165,7 @@
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
                         android:text="34.55"
-                        android:textSize="18sp" />
+                        android:textSize="12sp" />
                 </LinearLayout>
 
             </LinearLayout>
@@ -203,7 +203,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="Humidity:" />
+                        android:text="Humidity:"
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textHumidityValue"
@@ -212,7 +213,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="62%" />
+                        android:text="62%"
+                        android:textSize="12sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -237,7 +239,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="Air Pressure:" />
+                        android:text="Air Pressure:"
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textAirPressureValue"
@@ -246,7 +249,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="62%" />
+                        android:text="62%"
+                        android:textSize="12sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -271,7 +275,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="Wind Speed:" />
+                        android:text="Wind Speed:"
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textWindSpeedValue"
@@ -280,7 +285,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="4 Mph" />
+                        android:text="4 Mph"
+                        android:textSize="12sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -305,7 +311,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="Wind Direction:" />
+                        android:text="Wind Direction:"
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textWindDirectionValue"
@@ -314,7 +321,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="NE" />
+                        android:text="NE"
+                        android:textSize="12sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -339,7 +347,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="Visibility:" />
+                        android:text="Visibility:"
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textVisibilityValue"
@@ -348,7 +357,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="62%" />
+                        android:text="62%"
+                        android:textSize="12sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -373,7 +383,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="Accuracy:" />
+                        android:text="Accuracy:"
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textAccuracyValue"
@@ -382,7 +393,8 @@
                         android:layout_gravity="center"
                         android:layout_marginLeft="4dp"
                         android:layout_weight="1"
-                        android:text="62%" />
+                        android:text="62%"
+                        android:textSize="12sp" />
                 </LinearLayout>
             </LinearLayout>
 
