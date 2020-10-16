@@ -4,4 +4,4 @@ This is a very basic weather application developed using Kotlin in MVVM Reposito
 
 [Download Debug APK](https://github.com/arman-bd/kotlin-mvvm-retrofit-weather-app/releases/download/v1.0.1/app-debug.apk)
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot-1.png)
