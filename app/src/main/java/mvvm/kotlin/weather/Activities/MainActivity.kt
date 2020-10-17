@@ -86,6 +86,10 @@ class MainActivity : AppCompatActivity(), CellClickListener  {
             override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
             override fun afterTextChanged(s: Editable) {}
         })
+
+        if(currentWoeid != 0){
+            weatherViewModel!!.requestWeatherData(currentWoeid);
+        }
     }
 
     override fun locationOnClick(pos: Int, woeid: Int) {
